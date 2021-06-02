@@ -1,0 +1,13 @@
+<h1 class="display-3">List Heroes</h1>
+
+
+<div *ngFor="let heroe of heroes;   let i = index" class="list-group list-group-flush col-2">
+
+    <ul class="list-group list-group-horizontal">
+        <li class="list-group-item">{{ heroe.id }}</li>
+        <li class="list-group-item">{{ heroe.name }}</li>
+    </ul>
+
+    
+
+</div>
